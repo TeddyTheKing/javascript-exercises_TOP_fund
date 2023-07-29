@@ -1,8 +1,8 @@
 const removeFromArray = function(myArr, spec) {
     let newArr = [];
-    for (let i = 1; i < myArr.length; i++) {
-        if (i !== spec) {
-            newArr.push(i);
+    for (let i = 0; i < myArr.length; i++) {
+        if (myArr[i] !== spec) {
+            newArr.push(myArr[i]);
         } else {
             continue;
         }
